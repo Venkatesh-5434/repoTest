@@ -1,9 +1,9 @@
-// Button click function
+// Button click function (manual)
 function alertMsg() {
     alert("Welcome! Website is working.");
 }
 
-// ASYNCHRONOUS Zoho Pagesense Script Loader
+// ASYNCHRONOUS Zoho Pagesense Tracking Code (auto-run)
 (function(w, s) {
     var e = document.createElement("script");
     e.type = "text/javascript";
