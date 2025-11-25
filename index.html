@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2 class="logo">MyWebsite</h2>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>This is a clean website made with HTML, CSS & JS.</p>
+        <button onclick="alertMsg()">Click Me</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am learning web development to build amazing websites.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+
+        <div class="card">Web Development</div>
+        <div class="card">API Integration</div>
+        <div class="card">Tech Support</div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="4" placeholder="Message"></textarea>
+        <button>Submit</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

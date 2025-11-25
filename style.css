@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav .logo {
+    color: white;
+    font-size: 20px;
+}
+
+nav .menu a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav .menu a:hover {
+    color: yellow;
+}
+
+.hero {
+    background: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 140px 20px;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+input, textarea, button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+}
+
+button {
+    background: #4a90e2;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0d65c9;
+}
